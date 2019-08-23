@@ -9,7 +9,11 @@
   "keywords": [],
   "author": "Kofi Cypher <skcypher6@gmail.com>",
   "license": "ISC",
+  "jest": {
+    "testResultsProcessor": "./node_modules/jest-junit-reporter"
+  },
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "jest-junit-reporter": "^1.1.0"
   }
 }
